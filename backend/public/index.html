@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Social App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Mini Social App</h1>
+        
+        <div id="auth-section">
+            <input type="text" id="username" placeholder="Username">
+            <input type="password" id="password" placeholder="Password">
+            <button onclick="login()">Login / Register</button>
+        </div>
+
+        <div id="feed-section" style="display:none;">
+            <p>Welcome, <span id="currentUser"></span>!</p>
+            <div class="create-post">
+                <textarea id="postContent" placeholder="What's on your mind?"></textarea>
+                <button onclick="createPost()">Post</button>
+            </div>
+            <div id="posts-container"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

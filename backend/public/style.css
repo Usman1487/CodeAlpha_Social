@@ -1,0 +1,4 @@
+body { font-family: sans-serif; background: #f0f2f5; display: flex; justify-content: center; }
+.container { width: 500px; background: white; padding: 20px; border-radius: 8px; margin-top: 20px; }
+.post { border: 1px solid #ddd; padding: 10px; margin-top: 10px; border-radius: 5px; }
+button { cursor: pointer; background: #007bff; color: white; border: none; padding: 5px 10px; border-radius: 3px;}
